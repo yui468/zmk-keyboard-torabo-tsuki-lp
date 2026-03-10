@@ -18,9 +18,9 @@
 
 LOG_MODULE_REGISTER(split_power_mgmt, CONFIG_ZMK_LOG_LEVEL);
 
-#define SLEEP1_TIMEOUT_MS 5000   // 5 seconds to sleep1 from active
-#define SLEEP2_TIMEOUT_MS 15000  // 15 seconds to sleep2 from sleep1  
-#define SLEEP3_TIMEOUT_MS 30000  // 30 seconds to sleep3 from sleep2
+#define SLEEP1_TIMEOUT_MS 30000   // 30 seconds to sleep1 from active
+#define SLEEP2_TIMEOUT_MS 120000  // 120 seconds to sleep2 from sleep1
+#define SLEEP3_TIMEOUT_MS 300000  // 300 seconds to sleep3 from sleep2
 #define ACTIVE_CONN_INTERVAL CONFIG_ZMK_SPLIT_BLE_PREF_INT
 #define SLEEP1_CONN_INTERVAL (CONFIG_ZMK_SPLIT_BLE_PREF_INT*2)
 #define SLEEP2_CONN_INTERVAL (CONFIG_ZMK_SPLIT_BLE_PREF_INT*4)
