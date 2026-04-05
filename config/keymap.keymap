@@ -61,7 +61,7 @@
 &none  &none           &none     &none     &none      &none                                      &none        &none  &none      &none          &none            &none
 &none  &kp Q           &kp W     &kp E     &kp R      &kp T                                      &kp Y        &kp U  &kp I      &kp O          &kp P            &none
 &none  &kp A           &kp S     &kp D     &kp F      &kp G        &none        &none            &kp H        &kp J  &kp K      &kp L          &lt 1 SEMICOLON  &none
-&none  &kp Z           &kp X     &kp C     &kp V      &kp B        &kp TAB      &kp RIGHT_SHIFT  &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH        &none
+&none  &kp Z           &kp X     &kp C     &kp V      &kp B        &kp ESC      &kp RIGHT_SHIFT  &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH        &none
 &none  &kp LEFT_SHIFT  &kp LGUI  &kp LALT  &kp LCTRL  &lt 1 SPACE  &lt 3 GRAVE  &kp BACKSPACE    &lt 2 ENTER  &none  &none      &kp RS(RG(S))  &kp RS(RG(S))    &none
             >;
         };
@@ -78,11 +78,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans             &trans        &trans        &trans        &trans                                 &trans             &trans            &trans             &trans            &trans            &trans
-&trans  &kp LS(SQT)        &kp N7        &kp N8        &kp N9        &kp LS(NUMBER_8)                       &kp LS(N9)         &kp LS(NUMBER_1)  &kp LS(AMPERSAND)  &kp LS(N9)        &kp LS(NUMBER_4)  &trans
-&trans  &kp LS(SEMICOLON)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RIGHT_BRACKET      &trans  &trans  &kp BSLH           &kp MINUS         &kp LS(EQUAL)      &kp LS(NUMBER_3)  &kp COLON         &trans
-&trans  &kp LS(MINUS)      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(RIGHT_BRACKET)  &trans  &trans  &kp LS(BACKSLASH)  &kp UNDERSCORE    &kp EQUAL          &kp LS(GRAVE)     &kp LS(SLASH)     &trans
-&trans  &trans             &kp N0        &kp DOT       &trans        &trans                 &trans  &trans  &trans             &trans            &trans             &trans            &trans            &trans
+&trans  &trans             &trans        &trans        &trans        &trans                                 &trans             &trans              &trans         &trans            &trans            &trans
+&trans  &kp LS(SQT)        &kp N7        &kp N8        &kp N9        &kp LS(NUMBER_8)                       &kp LS(N9)         &kp LS(NUMBER_1)    &kp AMPERSAND  &kp AT            &kp LS(NUMBER_4)  &trans
+&trans  &kp LS(SEMICOLON)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RIGHT_BRACKET      &trans  &trans  &kp BSLH           &kp MINUS           &kp LS(EQUAL)  &kp LS(NUMBER_3)  &kp SINGLE_QUOTE  &trans
+&trans  &kp LS(MINUS)      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(RIGHT_BRACKET)  &trans  &trans  &kp LS(BACKSLASH)  &kp LS(UNDERSCORE)  &kp EQUAL      &kp GRAVE         &kp LS(SLASH)     &trans
+&trans  &trans             &kp N0        &kp DOT       &trans        &trans                 &trans  &trans  &trans             &trans              &trans         &trans            &trans            &trans
             >;
         };
 
