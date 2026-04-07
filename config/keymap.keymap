@@ -8,25 +8,24 @@
     combos {
         compatible = "zmk,combos";
 
-        ESCcombo {
-            bindings = <&kp ESC>;
-            key-positions = <13 14>;
-            layers = <2>;
-        };
-
         TABcombos {
             bindings = <&kp TAB>;
             key-positions = <25 26>;
         };
 
-        delete_cp, {
-            bindings = <&kp DELETE>;
+        deletecmb {
+            bindings = <&kp DEL>;
             key-positions = <21 22>;
         };
 
         BLEcob {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <59 60>;
+        };
+
+        ESCcmb {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
         };
     };
 
@@ -79,9 +78,9 @@
         layer_2 {
             bindings = <
 &trans  &trans             &trans        &trans        &trans        &trans                                 &trans             &trans            &trans            &trans            &trans            &trans
-&trans  &kp LS(SQT)        &kp N7        &kp N8        &kp N9        &kp LS(NUMBER_8)                       &kp LS(N9)         &kp LS(NUMBER_1)  &kp LS(NUMBER_6)  &kp NON_US_HASH   &kp LS(NUMBER_4)  &trans
+&trans  &kp LS(SQT)        &kp N7        &kp N8        &kp N9        &kp LS(NUMBER_8)                       &kp LS(N9)         &kp LS(NUMBER_1)  &kp LS(NUMBER_6)  &kp LS(NUMBER_2)  &kp LS(NUMBER_4)  &trans
 &trans  &kp LS(SEMICOLON)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RIGHT_BRACKET      &trans  &trans  &kp BSLH           &kp MINUS         &kp LS(EQUAL)     &kp LS(NUMBER_3)  &kp SINGLE_QUOTE  &trans
-&trans  &kp LS(MINUS)      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(RIGHT_BRACKET)  &trans  &trans  &kp LS(BACKSLASH)  &kp LS(MINUS)     &kp EQUAL         &kp GRAVE         &kp LS(SLASH)     &trans
+&trans  &kp LS(MINUS)      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(RIGHT_BRACKET)  &trans  &trans  &kp LS(BACKSLASH)  &kp LS(INT_RO)    &kp EQUAL         &kp GRAVE         &kp LS(SLASH)     &trans
 &trans  &trans             &kp N0        &kp DOT       &trans        &trans                 &trans  &trans  &trans             &trans            &trans            &trans            &trans            &trans
             >;
         };
